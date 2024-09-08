@@ -82,9 +82,10 @@ echo "**                                                                     **"
 echo "*************************************************************************"
 cd /usr/local/bin
 # Use a shallow clone to reduce download size
-$SUDO git clone --depth 1 https://github.com/nebhead/pifire
+#$SUDO git clone --depth 1 https://github.com/nebhead/pifire
 # Replace the below command to fetch development branch
 #$SUDO git clone --depth 1 --branch development https://github.com/nebhead/pifire
+$SUDO git clone --depth 1 --branch feature-ili9488 https://github.com/wightmanjr/pifire
 
 # Setup Python VENV & Install Python dependencies
 clear
